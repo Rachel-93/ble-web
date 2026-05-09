@@ -18,15 +18,15 @@
                         </h1>
                     </div>
                     <p class="text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl">
-                        BLE Global Engineering Sdn. Bhd. is a leading provider of electrical control and environmental health solutions.
-                        Possessing one of the most advance technology in both divisional solutions, BLE Global Engineering Sdn. Bhd. is a progressive solution provider that advocating for tomorrow’s advance and healthier lifelihood, for today. Hence our motto;
+                        BLE Global Engineering Sdn. Bhd. is a leading provider of electrical engineering solutions.
+                        Possessing one of the most advanced technology in the industry, BLE Global Engineering Sdn. Bhd. is a progressive solution provider advocating for tomorrow’s advance, for today. Hence our motto;
                         Realising Tomorrow’s Life. Today.
                     </p>
                 </div>
                 <div class="lg:h-full md:flex">
                     <div class="flex w-full h-96 min-h-[24rem] lg:min-h-[none] lg:w-full lg:h-full items-center relative">
                         <div class="absolute z-0 top-1/2 -translate-y-1/2 w-5/6 right-0 h-[calc(80%+20px)] bg-gradient-to-tr opacity-25 from-[#570cac] to-primary blur-2xl"></div>
-                        <div class="absolute h-full z-10 p-2 -translate-y-1/2 top-1/2 lg:right-3 md:right-40 sm:right-16 rounded-full shadow-lg border border-primary">
+                        <div class="absolute aspect-square max-h-full z-10 p-2 -translate-y-1/2 top-1/2 lg:right-3 md:right-40 sm:right-16 rounded-full shadow-lg border border-primary">
                             <img src="@/assets/ble-logo.png" alt="BLE Logo" width="500" height="auto" loading="lazy"
                             class="w-full h-full rounded-full object-cover"
                             >

@@ -29,7 +29,7 @@
                     Us
                 </h2>
                 <p class="text-base lg:text-lg mt-8 py-8"> 
-                    BLE Global Engineering Sdn. Bhd. is a progressive provider of electrical engineering services and environmental health solutions. 
+                    BLE Global Engineering Sdn. Bhd. is a progressive provider of electrical engineering services and solutions. 
                     As a company that progresses constantly with the trends of time, BLE Global's Engineering Sdn. Bhd. is capable to provide the most relevant solutions the the market and also to introduce foreign technology to the local market.
                 </p>
                 <div class="grid grid-cols-3 gap-4 max-w-lg pt-8">

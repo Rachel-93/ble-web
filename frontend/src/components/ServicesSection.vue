@@ -29,73 +29,73 @@ import {ref} from 'vue';
 const services =ref([
     {
         id:1,
-        icon:'/src/assets/services/plant-automation.png',
+        icon:'/services/plant-automation.png',
         name:'Plant Automation Design',
         description:'Provides superb customer service and high quality turn-key automated systems.'
     },
     {
         id:2,
-        icon:'/src/assets/services/plc-programming.png',
+        icon:'/services/plc-programming.png',
         name:'PLC Programming',
         description:'Provides comprehensive and customizable PLC programming designs that suit any specific project requirements.'
     },
     {
         id:3,
-        icon:'/src/assets/services/switchboard.png',
+        icon:'/services/switchboard.png',
         name:'Low Voltage Switchboard / MCC Panel Design',
         description:'Provides quality assured and durable LV Switchboard and MCC Panels that suit any specific project requirements.'
     },
     {
         id:4,
-        icon:'/src/assets/services/control-panel.png',
+        icon:'/services/control-panel.png',
         name:'Control Panel / Mimic Panel / PLC Panel Design',
         description:'Provides quality assured and durable Control Panel, Mimic Panel, PLC Panel that suit any specific project requirements.'
     },
     {
         id:5,
-        icon:'/src/assets/services/networking.png',
+        icon:'/services/networking.png',
         name:'GSCADA / HMI and Networking',
         description:'Provides comprehensive and customizable SCADA designs that are designed to serve greater practicality in any system.'
     },
     {
         id:6,
-        icon:'/src/assets/services/cctv.png',
+        icon:'/services/cctv.png',
         name:'CCTV / PAGA System',
         description:''
     },
     {
         id:7,
-        icon:'/src/assets/services/telecommunication-system.png',
+        icon:'/services/telecommunication-system.png',
         name:'Telecomunication System',
         description:'Provides systematic and customizable Telecomunication System designs that are designed to serve greater practicality in any system.'
     },
     {
         id:8,
-        icon:'/src/assets/services/control-instrumentation.png',
+        icon:'/services/control-instrumentation.png',
         name:'Control & Instrumentation',
         description:''
     },
     {
         id:9,
-        icon:'/src/assets/services/cabling-works.png',
+        icon:'/services/cabling-works.png',
         name:'Cabling Works',
         description:''
     },
     {
         id:10,
-        icon:'/src/assets/services/earthing-works.png',
+        icon:'/services/earthing-works.png',
         name:'Earthing Works',
         description:''
     },
     {
         id:11,
-        icon:'/src/assets/services/turn-key.png',
+        icon:'/services/turn-key.png',
         name:'Turnkey Project',
         description:'BLE Global Engineering Sdn. Bhd. strives to offer, "The Full Package / Turn-key".'
     },
     {
         id:12,
-        icon:'/src/assets/services/site-testing.png',
+        icon:'/services/site-testing.png',
         name:'Site Testing Commissioning',
         description:''
     }
