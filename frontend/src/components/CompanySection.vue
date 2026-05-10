@@ -26,7 +26,7 @@
                 <div class="lg:h-full md:flex">
                     <div class="flex w-full h-96 min-h-[24rem] lg:min-h-[none] lg:w-full lg:h-full items-center relative">
                         <div class="absolute z-0 top-1/2 -translate-y-1/2 w-5/6 right-0 h-[calc(80%+20px)] bg-gradient-to-tr opacity-25 from-[#570cac] to-primary blur-2xl"></div>
-                        <div class="absolute aspect-square max-h-full z-10 p-2 -translate-y-1/2 top-1/2 lg:right-3 md:right-40 sm:right-16 rounded-full shadow-lg border border-primary">
+                        <div class="absolute aspect-square max-h-full z-10 p-2 -translate-y-1/2 top-1/2 left-1/2 -translate-x-1/2 sm:left-auto sm:translate-x-0 lg:right-3 md:right-40 sm:right-16 rounded-full shadow-lg border border-primary">
                             <img src="@/assets/ble-logo.png" alt="BLE Logo" width="500" height="auto" loading="lazy"
                             class="w-full h-full rounded-full object-cover"
                             >

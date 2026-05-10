@@ -14,13 +14,8 @@
             <ul class="px-4 sm:py-16 xl:pr-16 grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3"
                 data-aos="fade-right">
                 <div v-for="project in filteredProjects" :key="project.id">
-                    <div class="h-52 md:h-[24rem] rounded-t-xl relative group"
-                    :style="{ backgroundImage: 'url(' + project.image + ')', backgroundSize: 'cover' }">                    
-                    <div class="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0
-                    hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500
-                    ">
-                        <p class="text-white text-center px-4">{{ project.description }}</p>
-                    </div>
+                    <div class="h-52 md:h-[24rem] rounded-t-xl"
+                    :style="{ backgroundImage: 'url(' + project.image + ')', backgroundSize: 'cover', backgroundPosition: 'center' }">
                 </div>
                 <div class="text-white rounded-b-xl mt-3 bg-[#111a3e] shadow-lg border border-[#1f1641] py-6 px-4">
                     <h3 class="text-lg font-semibold uppercase lg:text-xl"> {{ project.title }}</h3>
