@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Generator body -->
+  <rect x="80" y="160" width="352" height="220" rx="16" fill="#4DD0E1" stroke="#1A2744" stroke-width="16" stroke-linejoin="round"/>
+  <!-- Engine block section -->
+  <rect x="100" y="180" width="180" height="140" rx="8" fill="#3ABCC7" stroke="#1A2744" stroke-width="10"/>
+  <!-- Cooling vents -->
+  <line x1="120" y1="200" x2="120" y2="300" stroke="#1A2744" stroke-width="8" stroke-linecap="round"/>
+  <line x1="145" y1="200" x2="145" y2="300" stroke="#1A2744" stroke-width="8" stroke-linecap="round"/>
+  <line x1="170" y1="200" x2="170" y2="300" stroke="#1A2744" stroke-width="8" stroke-linecap="round"/>
+  <line x1="195" y1="200" x2="195" y2="300" stroke="#1A2744" stroke-width="8" stroke-linecap="round"/>
+  <line x1="220" y1="200" x2="220" y2="300" stroke="#1A2744" stroke-width="8" stroke-linecap="round"/>
+  <line x1="245" y1="200" x2="245" y2="300" stroke="#1A2744" stroke-width="8" stroke-linecap="round"/>
+  <!-- Alternator section -->
+  <rect x="300" y="190" width="112" height="120" rx="8" fill="#3ABCC7" stroke="#1A2744" stroke-width="10"/>
+  <!-- Alternator circle -->
+  <circle cx="356" cy="250" r="40" fill="#80E8F0" stroke="#1A2744" stroke-width="10"/>
+  <!-- Lightning bolt in alternator -->
+  <polygon points="350,222 340,250 355,250 345,278" fill="#FFD54F" stroke="#1A2744" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Control panel on top -->
+  <rect x="300" y="100" width="120" height="60" rx="8" fill="#5C6D8E" stroke="#1A2744" stroke-width="10"/>
+  <!-- Control panel indicators -->
+  <circle cx="330" cy="130" r="10" fill="#FF5252" stroke="#1A2744" stroke-width="4"/>
+  <circle cx="360" cy="130" r="10" fill="#FFD54F" stroke="#1A2744" stroke-width="4"/>
+  <circle cx="390" cy="130" r="10" fill="#69F0AE" stroke="#1A2744" stroke-width="4"/>
+  <!-- Exhaust pipe -->
+  <rect x="120" y="100" width="30" height="60" rx="4" fill="#5C6D8E" stroke="#1A2744" stroke-width="10"/>
+  <!-- Exhaust smoke -->
+  <circle cx="125" cy="80" r="12" fill="none" stroke="#8E99A4" stroke-width="6" opacity="0.6"/>
+  <circle cx="140" cy="60" r="10" fill="none" stroke="#8E99A4" stroke-width="5" opacity="0.4"/>
+  <circle cx="120" cy="45" r="8" fill="none" stroke="#8E99A4" stroke-width="4" opacity="0.3"/>
+  <!-- Base/feet -->
+  <rect x="100" y="380" width="60" height="30" rx="6" fill="#1A2744"/>
+  <rect x="350" y="380" width="60" height="30" rx="6" fill="#1A2744"/>
+  <!-- Fuel tank -->
+  <rect x="100" y="330" width="140" height="30" rx="6" fill="#FFD54F" stroke="#1A2744" stroke-width="6"/>
+  <text x="170" y="352" font-family="Arial" font-weight="bold" font-size="16" fill="#1A2744" text-anchor="middle">FUEL</text>
+</svg>

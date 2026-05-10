@@ -23,11 +23,11 @@
                         Realising Tomorrow’s Life. Today.
                     </p>
                 </div>
-                <div class="lg:h-full md:flex">
-                    <div class="flex w-full h-96 min-h-[24rem] lg:min-h-[none] lg:w-full lg:h-full items-center relative">
+                <div class="lg:h-full flex justify-center items-center">
+                    <div class="flex w-full h-48 sm:h-64 md:h-80 lg:h-full items-center justify-center relative">
                         <div class="absolute z-0 top-1/2 -translate-y-1/2 w-5/6 right-0 h-[calc(80%+20px)] bg-gradient-to-tr opacity-25 from-[#570cac] to-primary blur-2xl"></div>
-                        <div class="absolute aspect-square max-h-full z-10 p-2 -translate-y-1/2 top-1/2 left-1/2 -translate-x-1/2 sm:left-auto sm:translate-x-0 lg:right-3 md:right-40 sm:right-16 rounded-full shadow-lg border border-primary">
-                            <img src="@/assets/ble-logo.png" alt="BLE Logo" width="500" height="auto" loading="lazy"
+                        <div class="z-10 p-2 w-40 h-40 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-full shadow-lg border border-primary">
+                            <img src="@/assets/ble-logo.png" alt="BLE Logo" loading="lazy"
                             class="w-full h-full rounded-full object-cover"
                             >
                         </div>

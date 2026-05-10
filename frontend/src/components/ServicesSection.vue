@@ -54,38 +54,38 @@ const services =ref([
     {
         id:5,
         icon:'/services/networking.png',
-        name:'GSCADA / HMI and Networking',
+        name:'SCADA / HMI and Networking',
         description:'Provides comprehensive and customizable SCADA designs that are designed to serve greater practicality in any system.'
     },
     {
         id:6,
         icon:'/services/cctv.png',
         name:'CCTV / PAGA System',
-        description:''
+        description:'Provides intelligent security surveillance and public address / general alarm system solutions for comprehensive site monitoring and safety.'
     },
     {
         id:7,
         icon:'/services/telecommunication-system.png',
-        name:'Telecomunication System',
-        description:'Provides systematic and customizable Telecomunication System designs that are designed to serve greater practicality in any system.'
+        name:'Telecommunication System',
+        description:'Provides systematic and customizable Telecommunication System designs that are designed to serve greater practicality in any system.'
     },
     {
         id:8,
         icon:'/services/control-instrumentation.png',
         name:'Control & Instrumentation',
-        description:''
+        description:'Provides complete control and instrumentation solutions including field device installation, calibration, and system integration for industrial processes.'
     },
     {
         id:9,
         icon:'/services/cabling-works.png',
         name:'Cabling Works',
-        description:''
+        description:'Provides comprehensive cabling services including power, control, instrument, network/IT, telephone, and fibre-optic cabling works.'
     },
     {
         id:10,
         icon:'/services/earthing-works.png',
         name:'Earthing Works',
-        description:''
+        description:'Provides professional earthing and lightning protection system installation to ensure electrical safety and equipment protection.'
     },
     {
         id:11,
@@ -97,7 +97,31 @@ const services =ref([
         id:12,
         icon:'/services/site-testing.png',
         name:'Site Testing Commissioning',
-        description:''
+        description:'Provides thorough on-site testing, commissioning, and factory acceptance testing to ensure all systems perform to specification.'
+    },
+    {
+        id:13,
+        icon:'/services/solar-off-grid.svg',
+        name:'Solar Off Grid System',
+        description:'Provides reliable solar off-grid power solutions for remote and rural areas where grid connection is unavailable.'
+    },
+    {
+        id:14,
+        icon:'/services/generator-set.svg',
+        name:'Generator Set',
+        description:'Supplies and installs quality generator sets for reliable backup and primary power generation.'
+    },
+    {
+        id:15,
+        icon:'/services/acoustic-solution.svg',
+        name:'Acoustic Solution',
+        description:'Provides acoustic enclosure solutions for noise reduction and sound attenuation in industrial environments.'
+    },
+    {
+        id:16,
+        icon:'/services/explosion-proof-panel.svg',
+        name:'Explosion Proof Panel',
+        description:'Designs and fabricates explosion-proof control panels for hazardous area applications.'
     }
     ])
 </script>

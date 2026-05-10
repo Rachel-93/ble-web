@@ -2,7 +2,16 @@
     <section class="text-white mt-20" id="projects">
         <div class="px-4 xl:pl-16">
             <div class="mb-4 md:flex md:justify-between xl:pr-16">
-                <h2 class="text-4xl font-bold text-white">Our Projects</h2>
+                <div>
+                    <h2 class="text-4xl font-bold text-white">Our Projects</h2>
+                    <button @click="showTimeline = true"
+                        class="mt-3 inline-flex items-center gap-2 text-sm text-primary hover:text-secondary transition-colors group cursor-pointer">
+                        <span>View All Completed Projects</span>
+                        <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                        </svg>
+                    </button>
+                </div>
                 <div class="flex space-x-4 mb-4 mt-5 md:mt-0">
                     <button class="hover:text-primary" v-for="category in ['All', 'Automation', 'Power Distribution', 'Infrastructure']"
                         :key="category" @click="() => selectedCategory = category"
@@ -31,10 +40,15 @@
                 </div>
             </ul>
         </div>
+
+        <ProjectTimeline :isOpen="showTimeline" @close="showTimeline = false" />
     </section>
 </template>
 <script setup>
 import { ref, computed } from 'vue';
+import ProjectTimeline from './ProjectTimeline.vue';
+
+const showTimeline = ref(false);
 
 const Projects = ref([
     {

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Enclosure box -->
+  <rect x="100" y="120" width="312" height="300" rx="16" fill="#4DD0E1" stroke="#1A2744" stroke-width="16" stroke-linejoin="round"/>
+  <!-- Inner padding / sound insulation layer -->
+  <rect x="130" y="150" width="252" height="240" rx="10" fill="#3ABCC7" stroke="#1A2744" stroke-width="8"/>
+  <!-- Acoustic foam pattern - zigzag -->
+  <polyline points="145,180 160,165 175,180 190,165 205,180 220,165 235,180 250,165 265,180 280,165 295,180 310,165 325,180 340,165 355,180 370,165" fill="none" stroke="#1A2744" stroke-width="6" stroke-linejoin="round"/>
+  <polyline points="145,210 160,195 175,210 190,195 205,210 220,195 235,210 250,195 265,210 280,195 295,210 310,195 325,210 340,195 355,210 370,195" fill="none" stroke="#1A2744" stroke-width="6" stroke-linejoin="round"/>
+  <polyline points="145,240 160,225 175,240 190,225 205,240 220,225 235,240 250,225 265,240 280,225 295,240 310,225 325,240 340,225 355,240 370,225" fill="none" stroke="#1A2744" stroke-width="6" stroke-linejoin="round"/>
+  <!-- Speaker icon in center -->
+  <rect x="200" y="280" width="40" height="60" rx="4" fill="#FFD54F" stroke="#1A2744" stroke-width="8"/>
+  <polygon points="240,270 290,240 290,350 240,320" fill="#FFD54F" stroke="#1A2744" stroke-width="8" stroke-linejoin="round"/>
+  <!-- Sound waves with X (noise cancellation) -->
+  <path d="M310,270 Q330,295 310,320" fill="none" stroke="#1A2744" stroke-width="8" stroke-linecap="round"/>
+  <path d="M330,255 Q360,295 330,335" fill="none" stroke="#1A2744" stroke-width="8" stroke-linecap="round"/>
+  <!-- X mark over sound waves (noise reduction) -->
+  <line x1="310" y1="260" x2="355" y2="335" stroke="#FF5252" stroke-width="10" stroke-linecap="round"/>
+  <line x1="355" y1="260" x2="310" y2="335" stroke="#FF5252" stroke-width="10" stroke-linecap="round"/>
+  <!-- Base -->
+  <rect x="110" y="420" width="80" height="24" rx="6" fill="#1A2744"/>
+  <rect x="320" y="420" width="80" height="24" rx="6" fill="#1A2744"/>
+  <!-- dB label -->
+  <text x="170" y="310" font-family="Arial" font-weight="bold" font-size="28" fill="#1A2744" text-anchor="middle">dB</text>
+  <!-- Down arrow next to dB -->
+  <polygon points="170,318 160,332 180,332" fill="#69F0AE" stroke="#1A2744" stroke-width="4"/>
+</svg>
