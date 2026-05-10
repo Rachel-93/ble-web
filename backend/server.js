@@ -8,9 +8,15 @@ app.use(express.json());
 app.use(cors({
   origin: [
     "https://bleglobal.com.my",
-    "https://www.bleglobal.com.my"
+    "https://www.bleglobal.com.my",
+    "http://localhost:5173"
   ]
 }));
+
+// Health check for Render
+app.get("/", (req, res) => {
+  res.status(200).json({ status: "ok" });
+});
 
 // Email sending API
 app.post("/send-email", async (req, res) => {
@@ -36,10 +42,11 @@ app.post("/send-email", async (req, res) => {
     });
 
     const info = await transporter.sendMail({
-      from,
+      from: process.env.SMTP_USER,
+      replyTo: from,
       to: process.env.SMTP_USER,
-      subject,
-      text
+      subject: `[Website Enquiry] ${subject}`,
+      text: `From: ${from}\n\n${text}`
     });
     
     console.log("Email sent successfully:", info.response);
